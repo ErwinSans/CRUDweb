@@ -4,22 +4,26 @@
 
     <br />
     <br />
-    <div>
-    <asp:Label ID="Label3" runat="server" Text="User Registration Form" BackColor="Maroon" Font-Names="Segoe UI" Font-Size="XX-Large" Font-Underline="False" ForeColor="White"></asp:Label>
+    <div style="text-align:center; background-color:maroon">
+        <p>
+            <asp:Label ID="Label3" runat="server" Text="User Registration Form" BackColor="Maroon" Font-Names="Segoe UI" Font-Size="XX-Large" Font-Underline="False" ForeColor="White"></asp:Label>
+        </p>
     </div>
-    <br />
-    User ID
+    <p>
+    <asp:Label ID="Label4" runat="server" Text="User ID"></asp:Label>
     <asp:TextBox ID="txtuid" runat="server"></asp:TextBox>
-    <br />
+    </p>
+    <p>
     <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label>
-    &nbsp;&nbsp;&nbsp;
-<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-    <br />
+    &nbsp;&nbsp;
+    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    </p>
+    <p>
     <asp:Label ID="Label2" runat="server" Text="Email"></asp:Label>
-&nbsp;&nbsp;&nbsp;
-<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-<br />
-<br />
+    &nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    </p>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Insert" />
     <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Search" />
